@@ -1,11 +1,12 @@
 name: Bitbucket ASoC SAST
-image: cwtravis1/bitbucket_asoc_sast:linux@sha256:f2293b7741d451b8a3d2f4a9483dd8e9d053dfc62d0bc88c053e9e705e037d52
-description: This pipe runs a SAST scan on HCL AppScan on Cloud
-repository: https://github.com/HCL-TECH-SOFTWARE/bitbucket-asoc-sast
-maintainer: cwtravis@gmail.com
+image: jaisonyi/bitbucket_asoc_sast:linux@sha256:5d3f7f311d4dd8d72b6552b5df56821d4a837409afebed4e4318bba38281e74d
+description: This pipe runs a SCA scan on HCL AppScan on Cloud
+repository: https://github.com/jaisonyi/asoc-container-scan-bitbucket
+maintainer: jaisonyi@gmail.com
 tags:
     - bitbucket-pipelines
     - pipes
     - python
     - security
+    - container image scan
   
