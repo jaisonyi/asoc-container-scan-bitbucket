@@ -47,7 +47,7 @@ pipelines:
         script:
           # Custom Pipe to run Static Analysis via HCL AppScan on Cloud
           # View README: https://github.com/cwtravis/bitbucket-asoc-sast
-          - pipe: docker://cwtravis1/bitbucket_asoc_sast:test
+          - pipe: docker://jaisonyi/bitbucket_asoc_sast:test
             variables:
               # Required Variables
               API_KEY_ID: $API_KEY_ID
@@ -60,7 +60,7 @@ pipelines:
               # Optional Variables
               REPO: $BITBUCKET_REPO_FULL_NAME
               BUILD_NUM: $BITBUCKET_BUILD_NUMBER
-              SCAN_NAME: "ASoC_SAST_BitBucket"
+              SCAN_NAME: "ASoC_SCA_BitBucket"
               DEBUG: "true"
         artifacts:
           - reports/*
