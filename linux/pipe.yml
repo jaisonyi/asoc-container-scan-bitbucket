@@ -1,5 +1,5 @@
 name: Bitbucket ASoC SCA
-image: jaisonyi/bitbucket_asoc_sast:linux@sha256:5d3f7f311d4dd8d72b6552b5df56821d4a837409afebed4e4318bba38281e74d
+image: jaisonyi/bitbucket_asoc_sca:linux@sha256:8202237c01871145f4c1f05e2581a21ebfdc065475dffa2852c95a7c54a4d298
 description: This pipe runs a SCA scan on HCL AppScan on Cloud
 repository: https://github.com/jaisonyi/asoc-container-scan-bitbucket
 maintainer: jaisonyi@gmail.com
